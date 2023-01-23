@@ -1,0 +1,397 @@
+body{
+    background-color: rgb(197, 193, 193);
+}
+.landing{
+   width: 1520px;
+    background-color: rgb(246, 241, 241);
+    margin-left: -10px;
+    height:1000px
+}
+.back-b{
+    height:900px ;
+    width:310px;
+    border-radius: 400px;
+    background:linear-gradient(to right, rgb(113, 113, 253) , rgb(248, 12, 248));
+    margin-left: -50px;
+    margin-top: -145px;
+    margin-bottom: -670px;
+    
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.container{
+    background-color:ghostwhite;
+    height:610px;
+    width:300px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    margin-left: 240px;
+    margin-bottom: -200px;
+    box-shadow: 0 1px 4px 0 rgba( 0, 0, 0, 0.12), 0 1px 4px 0 rgba( 0, 0, 0, 0.18);
+
+    
+}
+.button{
+    height:25px;
+    width:160px;
+    background-color: white;
+    border-radius: 13px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    margin-top: -9px;
+    display:inline-flex;
+}
+h1{
+    font-size: smaller;
+    color: white;
+    margin-left: 70px;
+   margin-bottom: -36px;
+  margin-top: -20px;
+}
+.upper
+.h2p{
+    font-size:xx-small;
+    color:rgb(236, 222, 234);
+    margin-left:70px ;
+    margin-top: 34px;
+    padding-bottom: 20px;
+    
+}
+header{
+    
+    margin-top: 0px;
+    border-top-left-radius: 17px;
+    border-top-right-radius:17px;
+    height:88px;
+    background:linear-gradient(to right, rgb(113, 113, 253) , rgb(248, 12, 248));
+    
+}
+.arrow{
+    margin-bottom: -12px;
+  
+    margin-left: -230px;
+}
+.options{
+    margin-left: 260px;
+    margin-top: -11px;
+    float: right;
+    margin-bottom: -30px;
+    
+}
+
+.profile{
+    border-radius: 14px;
+    border:solid white 1.5px;
+    margin-left: 34px;
+    margin-top:-57px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+
+.card1{
+    width: max-content;
+    margin-top: 10px;
+    color: hsl(276, 55%, 52%);
+    background-color: rgb(251, 237, 251);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: small;
+    border-bottom-left-radius:3px ;
+    
+}
+img{
+    border-radius: 14px;
+    margin-top:10px ;
+}
+.dog{
+    margin-left: 130px;
+}
+.card2{
+    width: max-content;
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 114px;
+    border-bottom-right-radius: 3px;
+    font-size: small;
+   
+}
+.card3{
+    width: max-content;
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 178px;
+    border-bottom-right-radius:3px ;
+    font-size: small;
+}
+.card4{
+    background:linear-gradient(to right, rgb(113, 113, 253) , rgb(248, 12, 248));
+    width: max-content;
+    padding: 3px;
+    margin-top:10px ;
+    margin-left: 10px;
+    border-radius: 10px;
+    border-bottom-left-radius:3px ;
+    color:rgb(233, 230, 230);
+    font-size: small;
+    height:32px
+}
+.amount{
+    margin-left: 140px;
+    margin-top: -21px;
+    color:white;
+    font-size: larger;
+    font-weight: 700;
+    padding-right: 18px;
+    font-size: large;
+   
+}
+.p{
+    margin-bottom:3px;
+    margin-top:10px ;
+    font-size: small;
+    padding-left: 29px;
+    
+}
+.input-box{
+    height:35px;
+    background-color:white;
+    width:260px;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: -4px;
+    margin-bottom: -20px;
+   
+
+}
+.enter{
+    margin-left: 246px;
+   margin-top: -12px;
+  
+}
+.intext{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: x-small;
+    padding-top: 12px;
+    color: rgb(218, 210, 210);
+    
+}
+.message{
+    margin-left: 700px;
+    margin-top: -450px;
+    width:430px
+   
+}
+h2{
+    font-size:270%;
+}
+.last-p{
+   margin-top: -7px;
+   color: rgb(158, 155, 155);
+   font-size: large;
+   line-height: 27px;   
+}
+footer{
+    margin-left: 300px;
+    margin-top: 300px;
+}
+@media only screen and (max-device-width:480px) and (min-device-width:390px){
+    body{
+        background-color: rgb(253, 253, 253);
+    }
+    .landing{
+        width:390px;
+        background-color: rgb(244, 244, 244);
+        height:1300px
+    }
+    .back-b{
+        height:900px ;
+        width:200px;
+        border-radius: 300px;
+        background:linear-gradient(to right, rgb(113, 113, 253) , rgb(248, 12, 248));
+        margin-left: 0px;
+        margin-top: -215px;
+        margin-bottom: -670px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    .container{
+        background-color:ghostwhite;
+        height:600px;
+        width:280px;
+        border-radius: 22px;
+        border-style: solid;
+        border-color: white;
+        border-width: 10px;
+        margin-left: 59px;
+        margin-top: 100px;
+        margin-bottom: -200px;
+        box-shadow: 0 1px 4px 0 rgba( 0, 0, 0, 0.12), 0 1px 4px 0 rgba( 0, 0, 0, 0.18);
+    
+        
+    }
+    .button{
+        height:25px;
+        width:160px;
+        background-color: white;
+        border-radius: 13px;
+        margin-left: 60px;
+        margin-bottom: 30px;
+        margin-top: -9px;
+        display:inline-flex;
+    }
+    h1{
+        font-size: smaller;
+        color: white;
+        margin-left: 70px;
+       margin-bottom: -26px;
+       margin-top: -16px;
+    }
+    .h2p{
+        font-size:xx-small;
+        color:rgb(236, 222, 234);
+        margin-left:70px ;
+        margin-top: -14px;
+    }
+    header{
+        margin-top: 0px;
+        border-top-left-radius: 17px;
+        border-top-right-radius:17px;
+        height:88px;
+        background-color: hsl(276, 100%, 81%);
+        
+    }
+    
+    .profile{
+        border-radius: 14px;
+        border:solid white 1.5px;
+        margin-left: 34px;
+        width:25px;
+        height: 25px;
+    }
+    
+    
+    .card1{
+        width: max-content;
+        margin-top: 10px;
+        color: hsl(276, 55%, 52%);
+        background-color: rgb(251, 237, 251);
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: 10px;
+        font-size: small;
+        border-bottom-left-radius:3px ;
+        
+    }
+    img{
+        border-radius: 14px;
+        margin-top:10px ;
+        height: 45px;
+        width:45px ;
+    }
+    .dog{
+        margin-left: 130px;
+    }
+    .card2{
+        width: max-content;
+        margin-top: 10px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: 98px;
+        border-bottom-right-radius: 3px;
+        font-size: small;
+       
+    }
+    .card3{
+        width: max-content;
+        margin-top: 10px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: 162px;
+        border-bottom-right-radius:3px ;
+        font-size: small;
+    }
+    .card4{
+        background:linear-gradient(to right, rgb(113, 113, 253) , rgb(248, 12, 248));
+        width: max-content;
+        padding: 3px;
+        margin-top:10px ;
+        margin-left: 10px;
+        border-radius: 10px;
+        border-bottom-left-radius:3px ;
+        color:rgb(233, 230, 230);
+        font-size: small;
+        height:32px
+    }
+    .amount{
+        margin-left: 140px;
+        margin-top: -21px;
+        color:white;
+        font-size: larger;
+        font-weight: 700;
+        padding-right: 18px;
+        font-size: large;
+       
+    }
+    .p{
+        margin-bottom:3px;
+        margin-top:10px ;
+        font-size: small;
+        padding-left: 29px;
+        
+    }
+    .input-box{
+        height:35px;
+        background-color: white;
+        width:260px;
+        margin-left: 11px;
+        border-radius: 20px;
+        margin-top: -4px;
+       
+    
+    }
+    .intext{
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: x-small;
+        padding-top: 12px;
+        color: rgb(218, 210, 210);
+        
+    }
+    .message{
+        margin-left: -19px;
+        margin-top: 250px;
+       
+    }
+    h2{
+        font-size:270%;
+        text-align: center;
+    }
+    .last-p{
+       margin-top: -7px;
+       color: rgb(158, 155, 155);
+       font-size: large;
+       line-height: 27px; 
+       text-align: center;  
+       padding-left:39px ;
+       padding-right:39px;
+    }
+    footer{
+        display: none;
+        margin-left: 300px;
+        margin-top: 300px;
+        
+    }
+
+}
